@@ -1,3 +1,3 @@
 # refactoring
-##1. Composing Methods
-###1) Extract Method
+## 1. Composing Methods
+### 1) Extract Method
