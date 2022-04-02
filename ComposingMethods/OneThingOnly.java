@@ -17,9 +17,9 @@ public class OneThingOnly {
     }
 
     private static double[] getLength(List<Double> list) {
-        double height = list.get(0);
+        double height = list.get(0);//Use a local variable instead of a parameter.
         double width = list.get(1);
-        return new double[]{height,width};
+        return new double[]{height, width};
     }
 
 }
