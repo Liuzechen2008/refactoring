@@ -1,4 +1,4 @@
-# refactoring
+# Refactoring
 
 ## First Example
 
@@ -8,23 +8,27 @@ An example helps make things clear.
 ## Bad Smells in Code
 
 ### Bloaters
+
 * Long Method
 * Large Class
 * Primitive Obsession
 * Long Parameter List
 
 ### Object-Orientation Abusers
+
 * Alternative Classes with Different Interfaces
 * Refused Bequest
 * Switch Statements
 * Temporary Field
 
 ### Change Preventers
+
 * Divergent Change
 * Parallel Inheritance Hierarchies
 * Shotgun Surgery
 
 ### Dispensables
+
 * Comments
 * Duplicate Code
 * Data Class
@@ -33,6 +37,7 @@ An example helps make things clear.
 * Speculative Generality
 
 ### Couplers
+
 * Feature Envy
 * Inappropriate Intimacy
 * Incomplete Library Class
@@ -44,7 +49,15 @@ An example helps make things clear.
 
 ### Composing Methods
 
+The refactoring techniques in this group streamline methods, remove code duplication, and pave the way for future improvements.
+
 ### Moving Features Between Objects
+
+These refactoring techniques show how to safely move functionality between classes, create new classes, and hide implementation details from public access.
+
+### Organizing Data
+
+These refactoring techniques help with data handling, replacing primitives with rich class functionality.
 
 
 ## See also
